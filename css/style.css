@@ -1,0 +1,972 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 3000px;
+}
+
+.Discount {
+  color: white;
+  background-color: darkkhaki;
+  text-align: center;
+  height: 10vh;
+  position: relative;
+}
+
+.Discount p {
+  font-size: 26px;
+  padding-top: 13px;
+}
+
+.Discount span {
+  position: absolute;
+  right: 24px;
+  color: black;
+  font-size: 37px;
+  top: 7px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+nav h1 {
+  text-transform: uppercase;
+  font-family: "Explora", cursive;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-left: 13px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-right: 1%;
+}
+nav {
+  margin-left: 2%;
+  margin-bottom: 30px;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding-top: 13px;
+  color: black;
+  transition: 0.3s;
+}
+
+nav ul a:hover {
+  color: rgb(186, 175, 12);
+}
+
+nav button {
+  margin-right: 22px;
+  padding: 11px 27px;
+  color: white;
+  border-radius: 20px;
+  background-color: darkkhaki;
+  border: 2px solid darkkhaki;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+nav button:hover {
+  background-color: rgb(162, 154, 43);
+}
+
+nav ul a li {
+  margin-right: 30px;
+}
+
+.ContinerTop {
+  background: linear-gradient(
+      to bottom,
+      rgb(177 173 42 / 25%),
+      rgb(34 40 39 / 50%)
+    ),
+    url("../img/carl-raw-s9rsYu-BYNo-unsplash.jpg");
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ContinerTop div {
+  color: white;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.ContinerTop h1 {
+  font-size: 40px;
+}
+
+.ContinerTop button {
+  padding: 14px 51px;
+  background: darkkhaki;
+  border: 1px solid darkkhaki;
+  border-radius: 33px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ContinerTop button:hover {
+  background-color: rgb(162, 154, 43);
+}
+
+.ContinerTop p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.ContinerTop span {
+  color: rgba(255, 0, 0, 0.727);
+}
+
+.login {
+  font-family: sans-serif;
+  width: 23%;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  height: 66vh;
+  border-radius: 20px;
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  z-index: 15;
+}
+
+.login h1 {
+  padding-top: 16%;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 19px;
+  padding-left: 19px;
+}
+
+.login .xnot {
+  position: absolute;
+  right: 5%;
+  font-size: 50px;
+  top: 0;
+  cursor: pointer;
+}
+
+.login form {
+  padding-top: 4%;
+}
+
+.login form input {
+  display: block;
+  margin: 10px auto 20px auto;
+  width: 85%;
+  height: 30px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid steelblue;
+}
+
+.login form input:focus {
+  outline: none;
+}
+
+.login form button {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 16px 64px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 6%;
+  border: 2px solid steelblue;
+  color: white;
+  transition: 0.3s;
+}
+
+.login form button:hover {
+  background-color: steelblue;
+}
+
+.login .icons img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.login .icons img:hover {
+  scale: 1.1;
+}
+
+.sign {
+  font-family: sans-serif;
+  width: 23%;
+  text-align: center;
+  background-color: white;
+  padding: 11px;
+  height: 66vh;
+  border-radius: 20px;
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  z-index: 15;
+}
+
+.sign h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 19px;
+  padding-left: 19px;
+  margin-top: 14%;
+}
+
+.sign .xnot2 {
+  position: absolute;
+  right: 5%;
+  font-size: 50px;
+  top: 0;
+  cursor: pointer;
+}
+
+.sign form input {
+  display: block;
+  margin: 10px auto 20px auto;
+  width: 85%;
+  height: 30px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid steelblue;
+}
+
+.sign form input:focus {
+  outline: none;
+}
+
+.sign form button {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 16px 64px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 6%;
+  border: 2px solid steelblue;
+  color: white;
+  transition: 0.3s;
+}
+
+.sign form button:hover {
+  background-color: steelblue;
+}
+
+.sign .icons img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.sign .icons img:hover {
+  scale: 1.1;
+}
+
+.overVloue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 123%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.values {
+  width: 37%;
+  color: white;
+  text-align: center;
+  margin: 8% auto;
+}
+
+.values h1 {
+  font-size: 60px;
+}
+
+.values p {
+  font-size: 20px;
+}
+
+.values button {
+  padding: 15px 5rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  color: white;
+  border: 2px solid white;
+  font-size: 16px;
+}
+
+.allprodaect {
+  width: 80%;
+  margin: auto;
+}
+
+.prdect {
+  float: left;
+  border: 2px solid rgb(158, 153, 153);
+  width: 29%;
+  border-radius: 8px;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 15px;
+  /* position: relative; */
+  transition: 0.3s;
+  /* max-height: 100vh; */
+}
+
+.prdect:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.prdect img {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.prdect img:hover {
+  transform: scale(1.045);
+}
+
+/* .prdect::before {
+  content: "50%";
+
+  position: absolute;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  right: 0;
+  transform: rotate(90deg);
+} */
+
+.prdect h4 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.prdect p {
+  padding: 10px;
+}
+
+.prdect button {
+  background: darkkhaki;
+  color: white;
+  padding: 12px 33px;
+  border: 2px solid darkkhaki;
+  border-radius: 38px;
+  transition: 0.5s;
+  cursor: pointer;
+  /* text-align: center; */
+  margin: auto;
+}
+
+.prdect button:hover {
+  background-color: green;
+  border: 2px solid green;
+}
+
+.prdect img {
+  width: 100%;
+  height: 300px;
+}
+
+.clr {
+  clear: both;
+}
+.Links_Div {
+  /* width: 97%; */
+
+  text-align: center;
+  /* margin-bottom: 10px; */
+  background-color: #232f3e;
+  padding: 10px;
+}
+.Links_Div a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.Links_Div a:hover {
+  text-decoration: underline;
+  color: rgb(220, 165, 93);
+}
+.TiTle {
+  text-align: center;
+  font-size: 42px;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  letter-spacing: 1px;
+  margin: 4% auto 4%;
+  transition: 0.1s;
+  width: fit-content;
+}
+
+.TiTle:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+  margin-top: 5%;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.Display {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.Display div {
+  width: 35%;
+  text-align: center;
+  padding: 50px;
+}
+
+.Display div i {
+  color: darkkhaki;
+  font-size: 30px;
+}
+
+.Display div p {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: -30px;
+  background-color: rgb(123, 117, 44);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.up.show {
+  right: 10px;
+}
+
+.TiTle2 {
+  text-align: center;
+  font-size: 42px;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  letter-spacing: 1px;
+  margin: 4% auto 0%;
+  transition: 0.1s;
+  width: fit-content;
+}
+
+.TiTle2:hover {
+  color: #000;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+/* footer section end */
+
+@media (min-width: 992px) {
+  .prdect {
+    /* width: 2%; */
+    max-width: 80%;
+    max-width: 80vh;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 28%;
+  }
+  .sign {
+    width: 28%;
+  }
+}
+
+@media (min-width: 872px) and (max-width: 991px) {
+  .ContinerTop {
+    padding-top: 5%;
+  }
+  .prdect {
+    width: 47%;
+    max-width: 90%;
+    max-width: 90vh;
+  }
+
+  .Links_Div {
+    line-height: 2;
+  }
+
+  .prdect p {
+    max-width: 85%;
+  }
+  .login {
+    width: 32%;
+  }
+  .sign {
+    width: 32%;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 872px) {
+  .ContinerTop {
+    padding-top: 5%;
+  }
+  .prdect {
+    width: 40%;
+    margin-left: 7%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount p {
+    font-size: 22px;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 32%;
+  }
+  .sign {
+    width: 32%;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 765px) {
+  .ContinerTop {
+    padding-top: 5%;
+  }
+  .prdect {
+    width: 43%;
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount p {
+    font-size: 20px;
+    padding-top: 2.5%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 38%;
+  }
+  .sign {
+    width: 42%;
+    position: absolute;
+    left: 29%;
+  }
+}
+
+@media (min-width: 629px) and (max-width: 679px) {
+  .Display {
+    display: block;
+    width: 60%;
+  }
+  .Display div {
+    width: 100%;
+    font-size: 15px;
+  }
+  .prdect {
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount p {
+    font-size: 17px;
+    padding-top: 3%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 38%;
+  }
+  .sign {
+    width: 42%;
+    position: absolute;
+    left: 29%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 629px) {
+  .Display {
+    display: block;
+    width: 60%;
+  }
+  .Display div {
+    width: 100%;
+  }
+  .prdect {
+    width: 70%;
+    margin-left: 11%;
+    margin-top: 4%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount p {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 3%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 38%;
+  }
+  .sign {
+    width: 42%;
+    position: absolute;
+    left: 29%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 600px) {
+  .Display {
+    display: block;
+    width: 60%;
+  }
+  .Display div {
+    width: 100%;
+  }
+  .prdect {
+    width: 70%;
+    margin-left: 11%;
+    margin-top: 4%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount {
+    height: 10vh;
+  }
+
+  .Discount p {
+    /* width: 50%; */
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding-top: 4%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 51%;
+    position: absolute;
+    left: 25%;
+  }
+  .sign {
+    width: 51%;
+    position: absolute;
+    left: 25%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  .ContinerTop {
+    background-position: center;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .Display {
+    display: block;
+    width: 60%;
+  }
+  .Display div {
+    width: 100%;
+    font-size: 15px;
+  }
+  .prdect {
+    width: 70%;
+    margin-left: 11%;
+    margin-top: 4%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount {
+    height: 10vh;
+  }
+
+  .Discount p {
+    width: 80%;
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding-left: 24%;
+    padding-top: 3%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 51%;
+    position: absolute;
+    left: 25%;
+  }
+  .sign {
+    width: 51%;
+    position: absolute;
+    left: 25%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  .ContinerTop {
+    background-position: center;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .Display {
+    display: block;
+    width: 60%;
+  }
+  .Display div {
+    width: 100%;
+    font-size: 15px;
+  }
+  .prdect {
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 20%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount {
+    height: 13vh;
+  }
+
+  .Discount p {
+    width: 80%;
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding-left: 24%;
+    padding-top: 3%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 60%;
+    position: absolute;
+    left: 17%;
+  }
+  .sign {
+    width: 60%;
+    position: absolute;
+    left: 17%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+  nav h1 {
+    margin: auto;
+  }
+  .footer {
+    margin-top: 32%;
+  }
+  .TiTle {
+    margin-top: 14%;
+  }
+  .ContinerTop {
+    background-position: center;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 350px) {
+  .ContinerTop {
+    background-position: center;
+  }
+
+  .Display {
+    display: block;
+    width: 60%;
+  }
+  .Display div {
+    width: 100%;
+  }
+  .TiTle {
+    margin-top: 14%;
+  }
+  .prdect {
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 20%;
+  }
+  .Links_Div {
+    line-height: 2;
+  }
+  .Discount {
+    height: 11vh;
+  }
+
+  .Discount p {
+    width: 80%;
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding-left: 24%;
+    padding-top: 3%;
+  }
+  .prdect p {
+    max-width: 80%;
+  }
+  .login {
+    width: 60%;
+    position: absolute;
+    left: 17%;
+  }
+  .sign {
+    width: 60%;
+    position: absolute;
+    left: 17%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+  nav h1 {
+    margin: auto;
+  }
+  .footer {
+    margin-top: 24%;
+  }
+}
